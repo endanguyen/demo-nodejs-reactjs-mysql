@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='<%= manifest.css%>' />
+    <script>
+      window.app = {};
+      app.apiUrl = '<%= baseUrl%>api';
+    </script>
+  </head>
+  <body>
+    <div id="root">
+    </div>
+  </body>
+  <script type='text/javascript' src='<%= manifest.js%>'></script>
+</html>
